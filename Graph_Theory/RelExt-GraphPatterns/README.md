@@ -1,0 +1,1 @@
+# 5. Relation Extraction from Short Texts Using Graph Patterns
