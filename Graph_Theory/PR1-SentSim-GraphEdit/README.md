@@ -26,3 +26,18 @@ This project explores sentence similarity using graph edit distance. Sentences a
    ```bash
    git clone https://github.com/strange-lab/AI-Research-Project-Ideas.git
    cd PR1-SentSim-GraphEdit
+
+    ```
+
+2. Install dependencies:
+ 
+ ```bash 
+ pip install networkx spacy numpy
+ python -m spacy download en_core_web_sm
+
+ ```
+
+4. Usage
+```bash
+python main.py --sentence1 "The cat sat on the mat." --sentence2 "A cat is sitting on a mat."
+```
